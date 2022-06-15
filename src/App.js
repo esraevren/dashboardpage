@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+
+import {Container, Col, Row } from 'reactstrap';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+
+<Container>
+<Row>
+    <Col
+      className="bg-light border"
+      sm="4"
+      
+    >
+      .col-6 .col-sm-4
+    </Col>
+    <Col
+      className="bg-light border"
+      sm="4"
+      
+    >
+      .col-6 .col-sm-4
+    </Col>
+    <Col
+      className="bg-light border"
+      sm="4"
+    >
+      .col-sm-4
+    </Col>
+  </Row>
+
+</Container>
+      
     </div>
   );
 }
